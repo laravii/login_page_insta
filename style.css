@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(243, 243, 243, 0.774);
+
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+}
+a {
+  text-decoration: none;
+}
+.insta-wrap {
+  display: flex;
+  align-items: center;
+
+  width: 60%;
+
+  margin: 30px;
+}
+
+.insta-log {
+  width: 50%;
+  height: auto;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(207, 191, 191);
+  padding: 1.5rem 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.login a {
+  color: black;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.logo img {
+  width: clamp(90%, 200px, 200px);
+  object-fit: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  height: 2rem;
+
+  margin: 3px;
+
+  border: 1px solid rgb(180, 175, 175);
+  border-radius: 3px;
+}
+
+.button {
+  width: 100%;
+  height: 2rem;
+
+  color: white;
+  background: rgba(47, 0, 255, 0.308);
+  border-radius: 3px;
+  border: none;
+
+  font-weight: 600;
+}
+
+p {
+  text-align: center;
+}
+
+.withFB {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.withFB img {
+  width: 50px;
+}
+
+.withFB a {
+  font-size: 1rem;
+  color: rgb(10, 10, 75);
+}
+
+.create-count {
+  border: 1px solid rgb(207, 191, 191);
+  width: 100%;
+  padding: 1rem;
+}
+
+.Apps {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadApps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoIcon {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+}
+.logoIcon img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
